@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300" rel="stylesheet">		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>Katja Maucec</title>
+		<link rel="icon" href="assets/img/km-logo.png">
+		<script src="assets/js/script.js"></script>
+	</head>
+	<body>
+		<div id="home">
+			<header id="header" class="warm-mode">
+				<div class="header-item">
+					<a href="#home" id="title">K.M.</a>
+				</div>
+				<div title="warm/cool toggle" id="toggle" class="left" onClick="toggleWarmCool()">
+					<div id="toggle-circle" class="warm-mode"></div>
+				</div> 
+				<div class="header-item">
+					<a href="#about" class="button">about</a>
+					<a href="#skills" class="button">skills</a>
+					<a href="#exp" class="button">experiences</a>
+				</div>
+			</header>
+			<div id="home-content" class="warm-mode">
+				<div id="hi">
+					hi! my name is
+				</div>
+				<div id="name">
+					Katja <br> Maucec.
+				</div>
+				<div id="i-am">
+					i am a:
+				</div>
+				<!-- <img id="selfie" src="assets/img/cropped-selfie-2.png"> -->
+				<div id="eng-lin-mus"> engineer.linguist.musician. &nbsp; </div>
+				<script src="CircleType-master/dist/circletype.min.js"></script>
+				<script>
+					new CircleType(document.getElementById('eng-lin-mus')).radius(270);
+				</script>
+				<a href="#about" >
+					<img src="assets/img/down-arrow.png" id="down-arrow-home">
+				</a>
+			</div>
+			<div id="about">
+				<div class="subheader">About Me</div>
+				<div id="about-content">
+					<img src="assets/img/selfie.png" id="selfie" class="warm-mode-border">
+					<div id="about-text-contact">
+						<div id="about-text">
+							Hello! I am a second year student majoring in Electrical Engineering and Computer Science
+							and minoring in Chinese Language at UC Berkeley.
+							<br>
+							<br>
+							In my free time, I enjoy playing the piano, viola, & ukulele, 
+							going hiking & practicing pilates, studying Chinese, and traveling.
+							This year I've focused on honing my graphic design skills and
+							recovering from a recent back surgery.
+							<br>
+							<br>
+							Feel free to get in touch with me and check out my work below!
+						</div>
+						<div id="contact-icons">
+							<a href="https://github.com/katja-maucec">
+								<img src="assets/img/github.svg" class="contact-icon">
+							</a>
+							<a href="https://linkedin.com/in/katja-maucec">
+								<img src="assets/img/linkedin.svg" class="contact-icon">
+							</a>
+							<a href="mailto:katja.maucec@berkeley.edu">
+								<img src="assets/img/email.svg" class="contact-icon">
+							</a>
+							<a href="https://facebook.com/katja-maucec">
+								<img src="assets/img/facebook-circular-logo.svg" class="contact-icon">
+							</a>
+						</div>
+					</div>
+				</div>
+				<a href="#skills" >
+					<img src="assets/img/down-chevron-black.svg" id="down-arrow">
+				</a>
+			</div>
+			<div id="skills">
+				<div class="white-subheader">Skills</div>
+				<div id="skills-content">
+					<div id="col">
+						<div class="skill-type">
+							FRONT-END
+							<div class="skill-label">
+								css/html/js:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+							<div class="skill-label">
+								React.js:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+						</div>
+						<div class="skill-type">
+							DESIGN
+							<div class="skill-label">
+								Figma/Canva:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+							<div class="skill-label">
+								Adobe Illustrator:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+							<div class="skill-label">
+								Adobe Photoshop:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+						</div>
+					</div>
+					<div id="col">
+						<div class="skill-type">
+							BACK-END
+							<div class="skill-label">
+								Java:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+							</div>
+							<div class="skill-label">
+								Python:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+						</div>
+						<div class="skill-type">
+							LANGUAGES
+							<div class="skill-label">
+								English:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+							</div>
+							<div class="skill-label">
+								Chinese:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+							</div>
+							<div class="skill-label">
+								Slovenian:
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="filled-circle warm-mode"></div>
+								<div class="empty-circle"></div>
+								<div class="empty-circle"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#exp" >
+					<img src="assets/img/white-down-chevron.svg" id="down-arrow">
+				</a>
+			</div>
+			<div id="exp">
+				<div class="subheader">Experiences</div>
+				<div id="exp-content">
+					<div class="exp-col">
+						<div class="exp-item warm-mode">
+							<div class="exp-title">CODEBASE</div>
+							<div class="exp-item-content">
+								<i>Client developer for UC Berkeley Codebase, 
+									<br>
+								spring 2020 - present</i>
+								<u1>
+									<li>Collaborate with team of developers each semester to prototype 
+										and develop software for clients such as businesses and 
+										on-campus organizations</li>
+									<li>Regularly communicate with POCs and conduct code reviews 
+										to optimize </li>
+								</u1>
+							</div>
+						</div>
+					</div>
+					<div class="exp-col">
+						<div class="exp-item warm-mode">
+							<div class="exp-title">IEEE</div>
+							<div class="exp-item-content">
+								<i>Marketing Director of UC Berkeley Institute of Electrical
+									and Electronic Engineers, 
+									<br>
+								spring 2020 - present</i>
+								<u1>
+									<li>Manage the graphic design of apparel and merchandise 
+										for upper division EE classes</li>
+									<li>Handle IEEE's social media, 
+										newsletter, blog and event photography </li>
+									
+								</u1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#home" >
+					<img src="assets/img/up-chevron.svg" id="down-arrow">
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
