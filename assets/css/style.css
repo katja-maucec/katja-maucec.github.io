@@ -109,12 +109,11 @@ body {
 }
 
 #title {
-    /* font-family: 'Alegreya Sans SC', sans-serif; */
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
     -webkit-text-stroke: 1px black;
     -webkit-text-fill-color: transparent;    
     font-size: 30pt;   
-    opacity: 90%;
+    opacity: 100%;
     text-shadow: none;
 }
 
